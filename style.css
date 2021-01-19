@@ -137,3 +137,23 @@ figure.tea-pictures {
 }
 
 /* Footer Section */
+
+footer {
+    position: relative;
+    top: 69px;
+    margin-top: 10px;
+    text-align: center;
+    height: 200px;
+}
+
+footer h2, footer h5 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 30px;
+}
+p.Copyright {
+    text-align: left;
+    margin-left: 20px;
+}
