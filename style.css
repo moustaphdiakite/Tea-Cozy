@@ -25,6 +25,7 @@ header {
     align-items: center;
     position: fixed;
     z-index: 1;
+    background-color: black;
 }
 
 header img {
@@ -46,3 +47,29 @@ nav ul li {
     margin-left: 15px;
 }
 /* End Header of the page */
+
+/* Main section of the page */
+
+main {
+    position: relative;
+    top: 69px;
+    z-index: 0;
+}
+
+.mission {
+    background-image: url(images/img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.mission-statement {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+.mission-statement h2, .mission-statement h4 {
+    padding: 5px;
+}
